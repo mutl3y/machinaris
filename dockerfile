@@ -97,8 +97,8 @@ ENV plots_dir="/plots"
 # One of fullnode, farmer, harvester, plotter, farmer+plotter, harvester+plotter. Default is fullnode
 ENV mode="fullnode" 
 # If mode=plotter, optional 2 public keys will be set in your plotman.yaml
-ENV farmer_pk="null"
-ENV pool_pk="null"
+ENV farmer_pk="88f8ab59b7bffcccd6811790cf82c128c848534ed923efe4e8b7ee565812f2b6f3e6c657308374f4a491dab886c06e88"
+ENV pool_pk="b7da82a07c6d2b93d8f3198921271ee7fe087f0bc67ccfcd7160dd8c583b199a544d4cfe2758abb446cc0534a9562265"
 # If mode=harvester, required for host and port the harvester will your farmer
 ENV farmer_address="null"
 ENV farmer_port="8447"
